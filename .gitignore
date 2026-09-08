@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Notebooks and test artifacts
+.ipynb_checkpoints/
+artifacts/
+reports/generated/
+
+# Data: retain only documented schemas/small synthetic examples in Git
+data/raw/
+data/interim/
+data/processed/
+*.parquet
+*.feather
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Research-tool cache
+.firecrawl/
+
