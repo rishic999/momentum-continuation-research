@@ -24,6 +24,9 @@ The exact first-pass specification, hypotheses, scope, and failure criteria live
 - [Methodology](docs/methodology.md) — event definition, labels, features, validation, and metrics.
 - [Data plan](docs/data-plan.md) — required datasets, point-in-time rules, and phased sourcing.
 - [Project roadmap](docs/roadmap.md) — staged deliverables and explicit go/no-go gates.
+- [Project state](docs/project-state.md) — current milestone, findings, blockers, and next task.
+- [Decision log](docs/decisions.md) — durable research and implementation decisions.
+- [Agent operating contract](AGENTS.md) — mandatory handoff and documentation protocol for every chat.
 
 ## Initial workflow
 
@@ -33,7 +36,8 @@ The exact first-pass specification, hypotheses, scope, and failure criteria live
 4. Compare every model with simple benchmarks and report uncertainty.
 5. Publish negative as well as positive results.
 
+Every task begins by reading the agent contract, charter, project state, and decision log. Every completed task updates the durable handoff files, documents material changes, validates its work, and commits a coherent change.
+
 ## Status
 
 The repository currently contains the research design and implementation plan. The first coding milestone is the price-only event panel and baseline continuation analysis.
-
